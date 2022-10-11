@@ -1,5 +1,6 @@
 const catalog = ['wines', 'distillates']
 const swiper = new Swiper('.swiper', {
+    autoHeight: true,
     speed: 800,
     direction: 'horizontal',
     allowTouchMove: false,
