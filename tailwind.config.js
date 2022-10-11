@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'gradient-gold': 'linear-gradient(to top, #B19A4D , #E3D7A0 )'
+      }
+    },
     fontFamily: {
       'CormorantGaramond': ['Cormorant Garamond', 'sans-serif'],
       'Arimo': ['Arimo', 'sans-serif'],
