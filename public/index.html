@@ -16,7 +16,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/05f3ef050b.js" crossorigin="anonymous"></script>
+    <title>Savalan</title>
 </head>
 
 <body class="font-Arimo">
@@ -24,15 +26,22 @@
     <!-- Top Nav -->
     <nav>
         <!-- Top Nav Container -->
-        <div class="container flex flex-row justify-between px-12 py-2">
+        <div class="container items-center flex mx-auto flex-row justify-between px-4 lg:px-10 py-2">
             <!-- Top Nav Left -->
-            <h2 class="font-CormorantGaramond font-semibold uppercase text-xl">Luxury of Savalan</h2>
+            <h2 class=" font-CormorantGaramond font-bold uppercase  lg:text-xl">Luxury of Savalan</h2>
             <!-- Top Nav Right -->
-            <ul class="flex flex-row space-between">
-                <li class="font-semibold">Contact us</li>
+            <ul class="hidden lg:flex flex-row space-x-8 font-semibold">
+                <li><a href="#" class="hover:text-[#B19A4D] transition-all">Contact us</a></li>
+                <li><a href="#" class="hover:text-[#B19A4D] transition-all">Follow us</a></li>
+                <li><a href="#" class="hover:text-[#B19A4D] transition-all">Find us</a></li>
+                <li class="pl-6 cursor-pointer language-dropdown">
+                    <span>EN</span>
+                    <i class="pl-1 fa-solid fa-caret-down transition-all"></i>
+                </li>
             </ul>
         </div>
     </nav>
+
 
 </body>
 
