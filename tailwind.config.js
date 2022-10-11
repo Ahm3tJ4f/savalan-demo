@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-gold': 'linear-gradient(to top, #B19A4D , #E3D7A0 )'
+        'gradient-gold': 'linear-gradient(to top, #B19A4D , #E3D7A0 )',
+        'buta': 'url("../img/bg-header.jpg")'
       },
       fontFamily: {
         'CormorantGaramond': ['Cormorant Garamond', 'sans-serif'],
